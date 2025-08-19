@@ -6,3 +6,5 @@ title = 'My First Post'
 ## Hi
 
 This is a *test* post! Thank you CHFR for helping!
+
+{{ $image := resources.Get "images/gspin.gif" }}
