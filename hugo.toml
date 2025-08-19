@@ -6,3 +6,5 @@ theme = 'ananke'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+    {{ $image := resources.Get "images/gspin.gif" }}
